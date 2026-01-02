@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router'
+</script>
 
 <template>
   <HomeHeaderComponent />
@@ -25,10 +27,10 @@
               According to lifestyle.
             </p>
             <div class="center">
-              <a href="/diet-plans"
+              <RouterLink to="/diet-plans"
                 ><button class="button black padding-large large margin-top hover-light-green">
                   START NOW<i class="fa fa-arrow-right margin-left"></i></button
-              ></a>
+              ></RouterLink>
             </div>
             <br />
           </div>
@@ -52,10 +54,10 @@
               activities you enjoy. Start building today using our algorithm.
             </p>
             <div class="center">
-              <a href="/workout-plans"
+              <RouterLink to="/workout-plans"
                 ><button class="button black padding-large large margin-top hover-light-green">
                   START NOW<i class="fa fa-arrow-right margin-left"></i></button
-              ></a>
+              ></RouterLink>
             </div>
             <br />
           </div>
