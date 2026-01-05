@@ -6,9 +6,9 @@
       We value your enquiry and we will make every effort to contact you as soon as possible.
     </p>
     <div style="margin-top: 48px">
-      <p><i class="fa fa-map-marker fa-fw xxlarge margin-right"></i> Colombo, SL</p>
-      <p><i class="fa fa-phone fa-fw xxlarge margin-right"></i> Phone: +94 77 015 5873</p>
-      <p><i class="fa fa-envelope fa-fw xxlarge margin-right"> </i> Email: brianjanaka@gmail.com</p>
+      <p><i class="fa fa-map-marker fa-fw xxlarge margin-right"></i> Melbourne, VIC, Australia</p>
+      <p><i class="fa fa-phone fa-fw xxlarge margin-right"></i> Phone: +61 421 712 062</p>
+      <p><i class="fa fa-envelope fa-fw xxlarge margin-right"> </i> Email: info@apollofit.com</p>
       <br />
       <!-- HTML Form Validation -->
       <form
