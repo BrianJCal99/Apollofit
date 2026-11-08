@@ -1,34 +1,56 @@
 # APOLLOFIT
 
-**APOLLOFIT** is a comprehensive fitness web application designed to help users
-achieve their health and wellness goals through personalized diet and workout
-plans.
+**APOLLOFIT** is a fitness web application designed to help users achieve their
+health and wellness goals through personalized diet and workout plans.
+
+Live site: [apollofit.org](https://apollofit.org)
 
 ## About
 
-APOLLOFIT empowers users to create customized fitness solutions tailored to
-their individual needs, preferences, and lifestyle. Whether you're looking to
-lose weight, build muscle, or maintain a healthy lifestyle, APOLLOFIT provides
-the tools and guidance you need to succeed.
+APOLLOFIT turns a few simple inputs into a plan that fits the user's body,
+goals, and lifestyle. Users can also browse and search a library of pre-made
+diet and workout plans to find one that suits them.
 
 ### Key Features
 
-- **Personalized Diet Plans**: Generate customized 30-day meal plans based on
-  your body type, dietary preferences, and weight goals. Our intelligent
-  algorithm calculates your BMI, BMR, and body fat percentage to create the
-  perfect nutrition strategy for you.
+- **Personalized Diet Plans**: Generate a weekly meal plan, with breakfast,
+  lunch, dinner, and snacks for every day, based on your gender, age, height,
+  weight, body measurements, and activity level.
 
-- **Personalized Workout Plans**: Build exercise routines tailored to your
-  fitness level, available time, and personal goals. From beginner-friendly
-  workouts to advanced training programs, APOLLOFIT adapts to your unique
-  fitness journey.
+- **Personalized Workout Plans**: Choose your goal (build strength, build
+  muscle, or build endurance) and your body type (ectomorph, mesomorph, or
+  endomorph) to get a matching training plan.
 
-- **Health Calculations**: Access comprehensive health metrics including BMI
-  (Body Mass Index), BMR (Basal Metabolic Rate), and body fat percentage to
-  better understand your body and track your progress.
+- **Health Calculations**: See your BMI (Body Mass Index) and weight category,
+  BMR (Basal Metabolic Rate), total daily calorie needs, and body fat
+  percentage. All calculations run in the browser using standard formulas: the
+  Mifflin-St Jeor equation for BMR, activity multipliers for daily calories,
+  and the U.S. Navy method for body fat.
 
-- **Lifestyle-Based Recommendations**: Receive suggestions that fit seamlessly
-  into your daily routine, ensuring sustainable and achievable fitness goals.
+- **Plan Library and Search**: Browse pre-made diet and workout plans and
+  filter them instantly as you type.
 
-Built with Next.js and React, APOLLOFIT combines modern web technology with
-fitness expertise to deliver a premium, user-friendly experience.
+## Tech Stack
+
+- [Vue 3](https://vuejs.org/) (Composition API, single-file components)
+- [Vue Router](https://router.vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- Hand-written CSS
+- ESLint and Prettier
+- Deployed on [Vercel](https://vercel.com/) with Vercel Analytics
+
+## Getting Started
+
+```sh
+npm install
+npm run dev       # start the development server
+npm run build     # build for production
+npm run preview   # preview the production build
+npm run lint      # lint and auto-fix
+npm run format    # format the source with Prettier
+```
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for
+details.
