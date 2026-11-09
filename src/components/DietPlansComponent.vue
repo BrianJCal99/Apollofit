@@ -77,16 +77,15 @@ const data = reactive({
 
 function computeBMI() {
   data.bmi = (data.weight / ((data.height / 100) * (data.height / 100))).toFixed(1)
-  if (data.bmi < 18.5 || data.bmi == 18.5) {
+  // WHO adult BMI categories: <18.5, 18.5-24.9, 25-29.9, 30+
+  const bmi = Number(data.bmi)
+  if (bmi < 18.5) {
     data.bmiCategorie = 'Underweight'
-  }
-  if ((18.5 < data.bmi && data.bmi < 24.9) || data.bmi == 24.9) {
+  } else if (bmi < 25) {
     data.bmiCategorie = 'Normal weight'
-  }
-  if ((24.9 < data.bmi && data.bmi < 29.9) || data.bmi == 29.9) {
+  } else if (bmi < 30) {
     data.bmiCategorie = 'Overweight'
-  }
-  if (data.bmi > 30) {
+  } else {
     data.bmiCategorie = 'Obesity'
   }
   return [data.bmi, data.bmiCategorie]

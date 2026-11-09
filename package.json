@@ -30,6 +30,6 @@
   },
   "description": "Frontend for workout web app",
   "main": "index.js",
-  "author": "Apollofit Team",
+  "author": "Brian Caldera",
   "license": "MIT"
 }
